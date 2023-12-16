@@ -105,68 +105,72 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: 'Useful Links',
+    title: 'Our Technologies',
     links: [
       {
-        name: 'Content',
-        link: 'https://www.hoobank.com/content/',
+        name: 'React',
+        link: 'https://www.google.com',
       },
       {
-        name: 'How it Works',
-        link: 'https://www.hoobank.com/how-it-works/',
+        name: 'Gatsby',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Create',
-        link: 'https://www.hoobank.com/create/',
+        name: 'NextJS',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Explore',
-        link: 'https://www.hoobank.com/explore/',
+        name: 'NodeJS',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Terms & Services',
-        link: 'https://www.hoobank.com/terms-and-services/',
+        name: 'GraphQL',
+        link: 'https://www.google.com',
+      },
+      {
+        name: 'Laravel',
+        link: 'https://www.google.com',
       },
     ],
   },
   {
-    title: 'Community',
+    title: 'Our Services',
     links: [
       {
-        name: 'Help Center',
-        link: 'https://www.hoobank.com/help-center/',
+        name: 'Social media Marketing',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Partners',
-        link: 'https://www.hoobank.com/partners/',
+        name: 'Web & Mobile App Development',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Suggestions',
-        link: 'https://www.hoobank.com/suggestions/',
+        name: 'Data & Analytics',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Blog',
-        link: 'https://www.hoobank.com/blog/',
+        name: 'Google Marketing solutions',
+        link: 'https://www.google.com',
       },
       {
-        name: 'Newsletters',
-        link: 'https://www.hoobank.com/newsletters/',
+        name: 'Search Engine Optimization',
+        link: 'https://www.google.com',
       },
     ],
   },
-  {
-    title: 'Partner',
-    links: [
-      {
-        name: 'Our Partner',
-        link: 'https://www.hoobank.com/our-partner/',
-      },
-      {
-        name: 'Become a Partner',
-        link: 'https://www.hoobank.com/become-a-partner/',
-      },
-    ],
-  },
+  // {
+  //   title: 'Partner',
+  //   links: [
+  //     {
+  //       name: 'Our Partner',
+  //       link: 'https://www.hoobank.com/our-partner/',
+  //     },
+  //     {
+  //       name: 'Become a Partner',
+  //       link: 'https://www.hoobank.com/become-a-partner/',
+  //     },
+  //   ],
+  // },
 ];
 
 export const socialMedia = [

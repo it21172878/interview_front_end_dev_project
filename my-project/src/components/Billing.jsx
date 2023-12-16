@@ -1,11 +1,17 @@
-import { apple, bill, google } from '../assets';
+import { apple, google, image02 } from '../assets';
 import styles, { layout } from '../style';
+import Button from './Button';
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img
+      {/* <img
         src={bill}
+        alt="billing"
+        className="w-[100%] h-[100%] relative z-[5]"
+      /> */}
+      <img
+        src={image02}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
       />
@@ -17,17 +23,21 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      <h2 className={`${styles.heading2} text-analogousColor1 lg:text-[30px]`}>
+        Web & Mobile App Development
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+      <p
+        className={`${styles.paragraph} max-w-[670px] lg:max-w-[670px] lg:text-[15px] mt-5`}
+      >
+        Your web and mobile Apps are pieces of the puzzle to grow your business.
+        We use frameworks which tailor content and engagement methods to respond
+        to different intents shown by your potential customers who interact with
+        your business online.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img
+        <Button title="LEARN MORE" />
+        {/* <img
           src={apple}
           alt="google_play"
           className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer"
@@ -36,7 +46,7 @@ const Billing = () => (
           src={google}
           alt="google_play"
           className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
-        />
+        /> */}
       </div>
     </div>
   </section>

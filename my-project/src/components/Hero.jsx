@@ -11,7 +11,7 @@ const Hero = () => {
       className={` bg-[url('./assets/heroimg.jpg')] bg-cover bg-no-repeat flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
-        className={` bg-gradient-to-r from-green-400 to-blue-500 flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-22 px-6 py-8 mt-80 sm:ml-16  `}
+        className={` bg-gradient-to-r from-green-400 to-blue-500 flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-22 px-6 py-8 mt-80 lg:ml-14 `}
       >
         {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
