@@ -4,6 +4,9 @@ export default {
   mode: 'jit',
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./src/assets/heroimg.jpg')",
+      },
       colors: {
         primaryColor: '#6B3CC9',
         secondaryColor: '#F28D35',
@@ -28,6 +31,7 @@ export default {
       },
     },
     screens: {
+      exs: '100px',
       xs: '375px',
       // xs: '480px',
       ss: '620px',

@@ -3,7 +3,7 @@ import styles, { layout } from '../style';
 import Button from './Button';
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section className={`${layout.sectionReverse} `}>
     <div className={layout.sectionImgReverse}>
       {/* <img
         src={bill}
@@ -12,7 +12,7 @@ const Billing = () => (
       /> */}
       <img
         src={image02}
-        alt="billing"
+        alt="image02"
         className="w-[100%] h-[100%] relative z-[5]"
       />
 

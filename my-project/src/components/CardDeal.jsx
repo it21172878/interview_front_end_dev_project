@@ -3,7 +3,10 @@ import styles, { layout } from '../style';
 import Button from './Button';
 
 const CardDeal = () => (
-  <section className={layout.section}>
+  <section
+    className={`${layout.section} sm:flex-col-reverse ss:flex-col-reverse xs:flex-col-reverse
+    exs:flex-col-reverse`}
+  >
     <div className={layout.sectionInfo}>
       <h2 className={`${styles.heading2} text-analogousColor1 lg:text-[30px]`}>
         Digital Strategy Consulting
@@ -15,7 +18,6 @@ const CardDeal = () => (
         concept and strategic overview to find the most efficient model for your
         business.
       </p>
-
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <Button title="LEARN MORE" />
       </div>

@@ -8,17 +8,17 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
-          alt="hoobank"
+          alt="at-digital"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        <p className={`${styles.paragraph} lg:text-white mt-2 max-w-[512px]`}>
+        <p className={`${styles.paragraph} lg:text-white mt-2 max-w-[450px]`}>
           Your goal is our target. Not anything in between. We use online
           marketing platforms and tools to achieve single objective - your
           business results.
         </p>
       </div>
 
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+      <div className="flex-[1] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
           <div
             key={footerlink.title}
@@ -44,8 +44,8 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className=" flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#ffffff]">
-      <p className="font-poppins font-normal text-center text-[16px] leading-[27px] text-white">
+    <div className=" w-[1000px] flex justify-center items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#ffffff]">
+      <p className=" items-center font-poppins font-normal text-center text-[16px] leading-[27px] text-white">
         Privacy Policy | Terms & Conditions
       </p>
 

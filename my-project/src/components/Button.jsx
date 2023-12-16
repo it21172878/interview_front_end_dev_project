@@ -3,7 +3,7 @@ import React from 'react';
 const Button = (props, styles) => (
   <button
     type="button"
-    className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
+    className=" px-5 py-1 bg-secondaryColor text-white hover:bg-primaryColor transition-all rounded-[4px] gap-80"
   >
     {props.title}
   </button>
